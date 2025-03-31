@@ -23,13 +23,12 @@ public class task5 {
         }
         while (count <= 10);
         //3-rd task
-        int summa = 0;
-        for(int i = -20; i < 21; i++){
+        int j = 0;
+        for(int i = -20; i < 20; i++){
             if(i%2 == 0){
-                int ost = i%2;
-                System.out.println(ost);
+                j += i;
             }
         }
-        System.out.println(summa);
+        System.out.println("Summa chetnih chisel ravna: "+j);
     }
 }
